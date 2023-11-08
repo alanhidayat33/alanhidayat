@@ -127,6 +127,7 @@ ul {
     color: #fff;
     border: 0;
     margin-top: 50px;
+    margin-right: 10px;
     border-radius: 2px;
     padding: 13px 20px;
     font-weight: 700;
@@ -403,7 +404,7 @@ ul {
     color: #ff8c05;
 }
 .portfolio .content-image {
-    position: relative;
+    position: sticky;
 }
 .portfolio .content-image:hover .image-overlay {
     opacity: 1;
